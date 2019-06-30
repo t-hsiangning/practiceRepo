@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D261F081E3B30BF0034DFF0 /* NewSplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D261F071E3B30BF0034DFF0 /* NewSplitViewController.m */; };
+		2DA75C881D3E0D680025E688 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DA75C871D3E0D680025E688 /* main.m */; };
+		2DA75C8B1D3E0D680025E688 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DA75C8A1D3E0D680025E688 /* AppDelegate.m */; };
+		2DA75C8E1D3E0D680025E688 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DA75C8D1D3E0D680025E688 /* ViewController.m */; };
+		2DA75C911D3E0D680025E688 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DA75C8F1D3E0D680025E688 /* Main.storyboard */; };
+		2DA75C931D3E0D680025E688 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DA75C921D3E0D680025E688 /* Assets.xcassets */; };
+		2DA75C961D3E0D680025E688 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DA75C941D3E0D680025E688 /* LaunchScreen.storyboard */; };
+		2DA75CA11D3E0D680025E688 /* CAReplicateRippleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DA75CA01D3E0D680025E688 /* CAReplicateRippleTests.m */; };
+		2DA75CAC1D3E0D680025E688 /* CAReplicateRippleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DA75CAB1D3E0D680025E688 /* CAReplicateRippleUITests.m */; };
+		2DA75CBB1D3E0DFA0025E688 /* RippleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DA75CBA1D3E0DFA0025E688 /* RippleLayer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2DA75C9D1D3E0D680025E688 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DA75C7B1D3E0D680025E688 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DA75C821D3E0D680025E688;
+			remoteInfo = CAReplicateRipple;
+		};
+		2DA75CA81D3E0D680025E688 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DA75C7B1D3E0D680025E688 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DA75C821D3E0D680025E688;
+			remoteInfo = CAReplicateRipple;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D261F061E3B30BF0034DFF0 /* NewSplitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewSplitViewController.h; sourceTree = "<group>"; };
+		2D261F071E3B30BF0034DFF0 /* NewSplitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewSplitViewController.m; sourceTree = "<group>"; };
+		2DA75C831D3E0D680025E688 /* CAReplicateRipple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CAReplicateRipple.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DA75C871D3E0D680025E688 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2DA75C891D3E0D680025E688 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2DA75C8A1D3E0D680025E688 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2DA75C8C1D3E0D680025E688 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2DA75C8D1D3E0D680025E688 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2DA75C901D3E0D680025E688 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2DA75C921D3E0D680025E688 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2DA75C951D3E0D680025E688 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2DA75C971D3E0D680025E688 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DA75C9C1D3E0D680025E688 /* CAReplicateRippleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CAReplicateRippleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DA75CA01D3E0D680025E688 /* CAReplicateRippleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAReplicateRippleTests.m; sourceTree = "<group>"; };
+		2DA75CA21D3E0D680025E688 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DA75CA71D3E0D680025E688 /* CAReplicateRippleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CAReplicateRippleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DA75CAB1D3E0D680025E688 /* CAReplicateRippleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAReplicateRippleUITests.m; sourceTree = "<group>"; };
+		2DA75CAD1D3E0D680025E688 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DA75CB91D3E0DFA0025E688 /* RippleLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RippleLayer.h; sourceTree = "<group>"; };
+		2DA75CBA1D3E0DFA0025E688 /* RippleLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RippleLayer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2DA75C801D3E0D680025E688 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DA75C991D3E0D680025E688 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DA75CA41D3E0D680025E688 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DA75C7A1D3E0D680025E688 = {
+			isa = PBXGroup;
+			children = (
+				2DA75C851D3E0D680025E688 /* CAReplicateRipple */,
+				2DA75C9F1D3E0D680025E688 /* CAReplicateRippleTests */,
+				2DA75CAA1D3E0D680025E688 /* CAReplicateRippleUITests */,
+				2DA75C841D3E0D680025E688 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2DA75C841D3E0D680025E688 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2DA75C831D3E0D680025E688 /* CAReplicateRipple.app */,
+				2DA75C9C1D3E0D680025E688 /* CAReplicateRippleTests.xctest */,
+				2DA75CA71D3E0D680025E688 /* CAReplicateRippleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2DA75C851D3E0D680025E688 /* CAReplicateRipple */ = {
+			isa = PBXGroup;
+			children = (
+				2DA75C891D3E0D680025E688 /* AppDelegate.h */,
+				2DA75C8A1D3E0D680025E688 /* AppDelegate.m */,
+				2DA75C8C1D3E0D680025E688 /* ViewController.h */,
+				2DA75C8D1D3E0D680025E688 /* ViewController.m */,
+				2DA75C8F1D3E0D680025E688 /* Main.storyboard */,
+				2DA75C921D3E0D680025E688 /* Assets.xcassets */,
+				2DA75C941D3E0D680025E688 /* LaunchScreen.storyboard */,
+				2DA75C971D3E0D680025E688 /* Info.plist */,
+				2DA75C861D3E0D680025E688 /* Supporting Files */,
+				2DA75CB91D3E0DFA0025E688 /* RippleLayer.h */,
+				2DA75CBA1D3E0DFA0025E688 /* RippleLayer.m */,
+				2D261F061E3B30BF0034DFF0 /* NewSplitViewController.h */,
+				2D261F071E3B30BF0034DFF0 /* NewSplitViewController.m */,
+			);
+			path = CAReplicateRipple;
+			sourceTree = "<group>";
+		};
+		2DA75C861D3E0D680025E688 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2DA75C871D3E0D680025E688 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2DA75C9F1D3E0D680025E688 /* CAReplicateRippleTests */ = {
+			isa = PBXGroup;
+			children = (
+				2DA75CA01D3E0D680025E688 /* CAReplicateRippleTests.m */,
+				2DA75CA21D3E0D680025E688 /* Info.plist */,
+			);
+			path = CAReplicateRippleTests;
+			sourceTree = "<group>";
+		};
+		2DA75CAA1D3E0D680025E688 /* CAReplicateRippleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2DA75CAB1D3E0D680025E688 /* CAReplicateRippleUITests.m */,
+				2DA75CAD1D3E0D680025E688 /* Info.plist */,
+			);
+			path = CAReplicateRippleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2DA75C821D3E0D680025E688 /* CAReplicateRipple */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DA75CB01D3E0D680025E688 /* Build configuration list for PBXNativeTarget "CAReplicateRipple" */;
+			buildPhases = (
+				2DA75C7F1D3E0D680025E688 /* Sources */,
+				2DA75C801D3E0D680025E688 /* Frameworks */,
+				2DA75C811D3E0D680025E688 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CAReplicateRipple;
+			productName = CAReplicateRipple;
+			productReference = 2DA75C831D3E0D680025E688 /* CAReplicateRipple.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2DA75C9B1D3E0D680025E688 /* CAReplicateRippleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DA75CB31D3E0D680025E688 /* Build configuration list for PBXNativeTarget "CAReplicateRippleTests" */;
+			buildPhases = (
+				2DA75C981D3E0D680025E688 /* Sources */,
+				2DA75C991D3E0D680025E688 /* Frameworks */,
+				2DA75C9A1D3E0D680025E688 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DA75C9E1D3E0D680025E688 /* PBXTargetDependency */,
+			);
+			name = CAReplicateRippleTests;
+			productName = CAReplicateRippleTests;
+			productReference = 2DA75C9C1D3E0D680025E688 /* CAReplicateRippleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2DA75CA61D3E0D680025E688 /* CAReplicateRippleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DA75CB61D3E0D680025E688 /* Build configuration list for PBXNativeTarget "CAReplicateRippleUITests" */;
+			buildPhases = (
+				2DA75CA31D3E0D680025E688 /* Sources */,
+				2DA75CA41D3E0D680025E688 /* Frameworks */,
+				2DA75CA51D3E0D680025E688 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DA75CA91D3E0D680025E688 /* PBXTargetDependency */,
+			);
+			name = CAReplicateRippleUITests;
+			productName = CAReplicateRippleUITests;
+			productReference = 2DA75CA71D3E0D680025E688 /* CAReplicateRippleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2DA75C7B1D3E0D680025E688 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Kaihatsu Goro";
+				TargetAttributes = {
+					2DA75C821D3E0D680025E688 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 49T3N777NX;
+					};
+					2DA75C9B1D3E0D680025E688 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 2DA75C821D3E0D680025E688;
+					};
+					2DA75CA61D3E0D680025E688 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 2DA75C821D3E0D680025E688;
+					};
+				};
+			};
+			buildConfigurationList = 2DA75C7E1D3E0D680025E688 /* Build configuration list for PBXProject "CAReplicateRipple" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2DA75C7A1D3E0D680025E688;
+			productRefGroup = 2DA75C841D3E0D680025E688 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2DA75C821D3E0D680025E688 /* CAReplicateRipple */,
+				2DA75C9B1D3E0D680025E688 /* CAReplicateRippleTests */,
+				2DA75CA61D3E0D680025E688 /* CAReplicateRippleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2DA75C811D3E0D680025E688 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DA75C961D3E0D680025E688 /* LaunchScreen.storyboard in Resources */,
+				2DA75C931D3E0D680025E688 /* Assets.xcassets in Resources */,
+				2DA75C911D3E0D680025E688 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DA75C9A1D3E0D680025E688 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DA75CA51D3E0D680025E688 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2DA75C7F1D3E0D680025E688 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D261F081E3B30BF0034DFF0 /* NewSplitViewController.m in Sources */,
+				2DA75C8E1D3E0D680025E688 /* ViewController.m in Sources */,
+				2DA75CBB1D3E0DFA0025E688 /* RippleLayer.m in Sources */,
+				2DA75C8B1D3E0D680025E688 /* AppDelegate.m in Sources */,
+				2DA75C881D3E0D680025E688 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DA75C981D3E0D680025E688 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DA75CA11D3E0D680025E688 /* CAReplicateRippleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DA75CA31D3E0D680025E688 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DA75CAC1D3E0D680025E688 /* CAReplicateRippleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2DA75C9E1D3E0D680025E688 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DA75C821D3E0D680025E688 /* CAReplicateRipple */;
+			targetProxy = 2DA75C9D1D3E0D680025E688 /* PBXContainerItemProxy */;
+		};
+		2DA75CA91D3E0D680025E688 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DA75C821D3E0D680025E688 /* CAReplicateRipple */;
+			targetProxy = 2DA75CA81D3E0D680025E688 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2DA75C8F1D3E0D680025E688 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DA75C901D3E0D680025E688 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2DA75C941D3E0D680025E688 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DA75C951D3E0D680025E688 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2DA75CAE1D3E0D680025E688 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		2DA75CAF1D3E0D680025E688 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2DA75CB11D3E0D680025E688 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = CAReplicateRipple/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.usen.develop.CAReplicateRipple;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2DA75CB21D3E0D680025E688 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = CAReplicateRipple/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.usen.develop.CAReplicateRipple;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2DA75CB41D3E0D680025E688 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CAReplicateRippleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.usen.develop.CAReplicateRippleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CAReplicateRipple.app/CAReplicateRipple";
+			};
+			name = Debug;
+		};
+		2DA75CB51D3E0D680025E688 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CAReplicateRippleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.usen.develop.CAReplicateRippleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CAReplicateRipple.app/CAReplicateRipple";
+			};
+			name = Release;
+		};
+		2DA75CB71D3E0D680025E688 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CAReplicateRippleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.usen.develop.CAReplicateRippleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CAReplicateRipple;
+			};
+			name = Debug;
+		};
+		2DA75CB81D3E0D680025E688 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CAReplicateRippleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.usen.develop.CAReplicateRippleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CAReplicateRipple;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2DA75C7E1D3E0D680025E688 /* Build configuration list for PBXProject "CAReplicateRipple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DA75CAE1D3E0D680025E688 /* Debug */,
+				2DA75CAF1D3E0D680025E688 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DA75CB01D3E0D680025E688 /* Build configuration list for PBXNativeTarget "CAReplicateRipple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DA75CB11D3E0D680025E688 /* Debug */,
+				2DA75CB21D3E0D680025E688 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DA75CB31D3E0D680025E688 /* Build configuration list for PBXNativeTarget "CAReplicateRippleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DA75CB41D3E0D680025E688 /* Debug */,
+				2DA75CB51D3E0D680025E688 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DA75CB61D3E0D680025E688 /* Build configuration list for PBXNativeTarget "CAReplicateRippleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DA75CB71D3E0D680025E688 /* Debug */,
+				2DA75CB81D3E0D680025E688 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2DA75C7B1D3E0D680025E688 /* Project object */;
+}
